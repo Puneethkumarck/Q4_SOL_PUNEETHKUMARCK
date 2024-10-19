@@ -1,3 +1,16 @@
-node_modules/
+# Exclude node_modules
+**/node_modules/
+
+# Exclude build/compiled output
 dist/
+build/
+out-tsc/
+bazel-out/
+
+# Exclude sensitive files
 *.wallet.json
+*.env
+*.key
+
+# Exclude macOS system files
+.DS_Store

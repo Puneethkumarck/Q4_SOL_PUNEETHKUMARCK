@@ -154,8 +154,6 @@ const keypair = Keypair.fromSecretKey(secretKey);
 })();
 ```
 
-![aidrop_transaction.png](src/docs/aidrop_transaction.png)
-
 ### 5.3 SOL Transfer to WBA Program
 
 ```typescript
@@ -192,8 +190,3 @@ const WBA_PUBLIC_KEY = new PublicKey("WBAQSygkwMox2VuWKU133NxFrpDZUBdvSBeaBEue2J
 })();
 ```
 
-![transfer_sol.png](src/docs/transfer_sol.png)
-
-5.4 WBA Prerequisite Program Interaction
-
-Implement the program interaction in `src/enroll.ts:`
