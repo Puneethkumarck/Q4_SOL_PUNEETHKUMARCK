@@ -26,13 +26,13 @@ Both the TypeScript and Rust implementations provide similar functionality, show
 
 The TypeScript implementation is located in the `ts/` directory. It uses the `@solana/web3.js` library to interact with the Solana blockchain.
 
-For detailed information about the TypeScript implementation, please refer to the [TypeScript README](./ts/README.md).
+For detailed information about the TypeScript implementation, please refer to the [TypeScript README](./ts/readme.md).
 
 ## Rust Implementation
 
 The Rust implementation is located in the `rs/` directory. It uses various Solana-related crates such as `solana-sdk`, `solana-client`, and `solana-program` for blockchain interactions.
 
-For detailed information about the Rust implementation, please refer to the [Rust README](./rs/README.md).
+For detailed information about the Rust implementation, please refer to the [Rust README](./rs/readme.md).
 
 ## Getting Started
 
